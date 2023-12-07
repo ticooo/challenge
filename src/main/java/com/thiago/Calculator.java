@@ -1,5 +1,13 @@
 package com.thiago;
 
+/*
+   * 1) The algorithm will tell the farmer what action should be taken based on
+   * the Soil Type and the Moisture Level as input.
+   * 2) The algorithm only accepts three types of soil (Clay, Loamy or Sandy) and
+   * the moisture level must be between 0 (zero) and 100 (one hundred), accepting
+   * decimal numbers (6.32, for example).
+   */
+
 public class Calculator {
     public String soilMoistureCalculator(String soilType, double moistureLevel) {
         
